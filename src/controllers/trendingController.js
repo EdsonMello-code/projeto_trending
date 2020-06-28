@@ -1,26 +1,27 @@
 const knex = require('../database')
+
 module.exports = {
   async index (request, response, next) {
     try {
-      const users = await knex('users')
-      return response.json(users)
+      const trends = await knex('trending')
+
+      return response.json(trends)
     } catch (error) {
       next(error)
     }
   },
 
   async create (request, response, next) {
-    const { username } = request.body
-    if (!username) {
-      return response.status(400).json({ error: 'Username invalid' })
+    const { trending } = request.body
+    if (!trending) {
+      return response.status(400).json({ error: 'Trend invalid' })
     }
     try {
-      await knex('users').insert({ username })
+      await knex('trending').insert({ trending })
 
       return response.status(201).send()
     } catch (error) {
       next(error)
     }
   }
-
 }
