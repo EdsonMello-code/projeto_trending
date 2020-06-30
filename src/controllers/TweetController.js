@@ -1,4 +1,5 @@
 const connection = require('../config/database')
+const newDate = require('../utils/newDate')
 
 module.exports = {
   async index(req,res) {
@@ -13,7 +14,9 @@ module.exports = {
 
     await connection('tweets').insert({
       text,
-      user_id: id
+      image: req.file.filename,
+      user_id: id,
+      created_at: newDate()
     })
 
     return res.json({ tweet: text})
