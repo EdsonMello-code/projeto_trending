@@ -38,13 +38,13 @@
 
 - [NVM](https://www.hostinger.com.br/tutoriais/instalar-node-js-ubuntu/)
 
-## Getting Start
+## Começar
 
-### Debian and derivatives
+### Em debian e derivados
 
 ### backend
 
-#### To install node using NVM
+#### Instalar o nodejs usando NVM
 
       1 - sudo apt install wget
       
@@ -56,7 +56,7 @@
       
       5 - nvm install v12.17.O
 
-#### To install docker
+#### Intalar o docker
 
       1 - sudo apt install apt-transport-https  ca-certificates curl gnupg2 software-properties-common
 
@@ -80,7 +80,7 @@
       
       11 - sudo systemctl status docker
 
-#### Run backend  
+#### Executar o backend  
 
       1 - Clone o repositório
 
@@ -90,7 +90,7 @@
       
       4 - npm run dev ou yarn dev
 
-#### Run frontend
+#### Executar o frontend
 
       1 - Depois de ter clonado o repostório entre em frontend 
       
