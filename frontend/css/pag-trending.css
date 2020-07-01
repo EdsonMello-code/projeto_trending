@@ -1,0 +1,90 @@
+
+
+.barra-titulo h1 {
+  color: rgba(0,0,0,0.9);
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin: 0px;
+  font-size: 30px;
+}
+
+.container-comentario{
+  display: inline-block;
+  max-width: 900px;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #F9F7F7;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.avatar{
+  float: left;
+  margin-top: 15px;
+}
+
+.avatar img {
+  cursor: pointer;
+  width: 50px;
+  min-width: 30px;
+  height: 50px;
+  min-height: 30px;
+  border-radius: 50%;
+  
+  border: solid 2px rgba(0,0,0,0.5);
+}
+
+.comentario{
+  width: 100%;
+  padding: 15px 60px 15px 3px;
+  float: right;
+  margin-right: -60px;
+}
+.comentario p {
+  font-size: 30px;
+  text-align: justify;
+}
+.comentario img {
+  margin: 10px 0;
+  border-radius: 15px;
+  border: solid 2px rgba(0,0,0,0.5);
+}
+
+
+.interacao{
+  float: left;
+  width: 100%;
+}
+
+.interacao .icon{
+  margin: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.icon i:hover{
+  color: #45cad0;
+}
+
+.form {
+  width: 80%;
+  border-radius: 30px;
+  border: 1px solid #DFE5E9;
+  background-color: #ffffff;
+  height: 46px;
+  float: right;
+}
+
+.form input{
+  font-size: 15px;
+  width: 100%;
+  border: none;
+  height: 46px;
+  background-color: transparent;
+  padding: 9px 20px 10px;
+}
+
+.form input:focus{
+  outline: none;
+}
+
