@@ -4,23 +4,6 @@
 
 ![Livro](./assets/livro.svg)
 
-<!-- ## Final result: 
-
-## Frontend
-
-<div align="center">
-
-  ![](/assets/previw2.gif)
-
-
-## Mobile
-
-  ![](/assets/mobile.gif)
-
-
-</div>
-  -->
-
 ## Visão geral
 
 <p>
