@@ -10,27 +10,29 @@ module.exports = (data) => {
 
   const joinArray = newArray.join(' ')
 
-  const splitTweet = joinArray.split(' ')
+  let splitTweet = joinArray.split(' ')
+  splitTweet = splitTweet.sort()
 
   for (let i = 0; i < splitTweet.length; i++) {
     for (let j = i + 1; j < splitTweet.length; j++) {
       if (splitTweet[j] === splitTweet[i]) {
         if (splitTweet[i].length > 1) {
           wordsReply.push(splitTweet[j])
+          break
         }
       }
     }
   }
 
-  wordsReply = wordsReply.sort()
+  const words = wordsReply.sort()
 
-  for (let i = 1; i < wordsReply.length + 1; i++) {
-    if (wordsReply[i] === wordsReply[i - 1]) {
+  for (let i = 1; i < words.length + 1; i++) {
+    if (words[i] === words[i - 1]) {
       cont++
     } else {
       trendings.push({
         count: cont,
-        text: wordsReply[i - 1]
+        text: words[i - 1]
       })
 
       cont = 1
