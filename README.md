@@ -56,7 +56,7 @@
       
       5 - nvm install v12.17.O
 
-#### Intalar o docker
+#### Instalar o docker
 
       1 - sudo apt install apt-transport-https  ca-certificates curl gnupg2 software-properties-common
 
