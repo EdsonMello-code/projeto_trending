@@ -7,7 +7,7 @@
 ## Visão geral
 
 <p>
-  O projeto conciste em criar uma forma mais interativa de divulgar a leitura
+  O projeto consiste em criar uma forma mais interativa de divulgar a leitura
   adaptando-se aos padrões da nossa época para chamar a atênção das pessoas
   da geração atual.
 </p>
