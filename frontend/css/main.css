@@ -16,8 +16,18 @@ body {
   overflow-x: hidden;
 }
 
+h1 {
+  font-size: 30px;
+}
+
 a {
   text-decoration: none;
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  float: left;
 }
 
 .container{
@@ -34,7 +44,7 @@ a {
 
 .container-left{
   float: left;
-  height: 500px;
+  min-height: 500px;
   max-width: 900px;
   min-width: 500px;
   padding-right: 10px;
@@ -42,11 +52,19 @@ a {
 
 .container-right{
   float: right;
-  height: 500px;
+  min-height: 500px;
   width: 100%;
   max-width: 300px;
   min-width: 200px;
   padding-left: 10px;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
 }
 
 .clear{clear: both;}

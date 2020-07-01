@@ -1,11 +1,5 @@
-
-
-.barra-titulo h1 {
-  color: rgba(0,0,0,0.9);
-  margin-top: 35px;
-  margin-bottom: 35px;
-  margin: 0px;
-  font-size: 30px;
+.barra-titulo {
+  margin-bottom: 10px;
 }
 
 .container-comentario{
@@ -15,7 +9,7 @@
   padding: 10px;
   background-color: #F9F7F7;
   border-radius: 5px;
-  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
 }
 
 .avatar{
@@ -88,3 +82,51 @@
   outline: none;
 }
 
+.form-textarea {
+  width: 100%;
+  min-width: 700px;
+  border-radius: 5px;
+  
+  height: 100px;
+  float: right;
+}
+
+.margin-left{
+  margin-left: 20px;
+}
+
+.form-textarea textarea{
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  height: auto;
+  background-color: transparent;
+  padding: 9px 20px 10px;
+  letter-spacing: 1px;
+  resize: none;
+}
+
+.form-textarea textarea:focus{
+  outline: none;
+}
+
+.botao-postar {
+  float: right;
+  margin-top: 10px;
+}
+.botao-postar button{
+  cursor: pointer;
+  padding: 10px 20px;
+  background: linear-gradient(to left,#45cad0,#45d0c1);
+  color: white;
+  font-weight: bold;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.botao-postar button:hover{
+  background: #3cb0b6;
+}
