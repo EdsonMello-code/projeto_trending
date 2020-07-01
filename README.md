@@ -8,7 +8,7 @@
 
 <p>
   O projeto consiste em criar uma forma mais interativa de divulgar a leitura
-  adaptando-se aos padrões da nossa época para chamar a atênção das pessoas
+  adaptando-se aos padrões da nossa época para chamar a atênção das pessoas não leitores
   da geração atual.
 </p>
 
