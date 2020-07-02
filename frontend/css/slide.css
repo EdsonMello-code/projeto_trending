@@ -1,0 +1,57 @@
+.slide {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  outline: none !important;
+  text-decoration: none !important;
+  height: calc(100% - 186px);
+  position: relative;
+  display: inline-block;
+}
+
+.seta i {
+  position: relative;
+  font-size: 100px;
+  margin: 15px;
+  vertical-align: center;
+  top: 100px;
+}
+
+.capa-livro{
+  float: left;
+}
+.capa-livro img{
+  width: 200px;
+  margin: 0 15px;
+}
+
+.descricao {
+  float: left;
+  width: 730px;
+}
+
+.descricao-livro{
+  float: left;
+}
+
+.descricao-livro p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.tags{
+  height: 80px;
+}
+
+.tags span{
+  border: solid 1px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 5px 10px;
+  background: #F9F7F7;
+  color: red;
+  font-weight: bold;
+  vertical-align: center;
+}
+
+
